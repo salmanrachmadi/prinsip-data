@@ -1,0 +1,44 @@
+{
+  "lr": {
+    "accuracy": 0.8705,
+    "precision": 0.8780487804878049,
+    "recall": 0.8518518518518519,
+    "f1": 0.8647519582245431,
+    "cv": 0.861
+  },
+  "rf": {
+    "accuracy": 0.8605,
+    "precision": 0.8651211801896733,
+    "recall": 0.8446502057613169,
+    "f1": 0.8547631441957314,
+    "cv": 0.85625
+  },
+  "h2": {
+    "t_naive": -4.493974209517021,
+    "p_naive": 0.010872630067986432,
+    "t_corr": -2.9959828063446805,
+    "p_corr": 0.040100560597838716,
+    "df": 4,
+    "result": "TIDAK DIDUKUNG (LR > RF, signifikan)",
+    "rf_better": false
+  },
+  "roc_auc": {
+    "LR (Default)": 0.9456003506749292,
+    "RF (Default)": 0.9369705849385919,
+    "LR (Tuned)": 0.9457144401210549,
+    "RF (Tuned)": 0.9375935733615154
+  },
+  "feature_importance": {
+    "previous_gpa": 0.4211764225422543,
+    "study_attendance": 0.09690196434672352,
+    "social_study_ratio": 0.0790154144433586,
+    "study_hours_per_day": 0.0787851337171594,
+    "productive_hours": 0.055532119094984775
+  },
+  "ablation": {
+    "lr_full": 0.8705,
+    "lr_no_gpa": 0.7575,
+    "rf_full": 0.8605,
+    "rf_no_gpa": 0.741
+  }
+}
