@@ -99,19 +99,10 @@ untuk menghormati overlap antar-fold CV.
 project/
 ├── datasets/                      # data mentah & terproses + model_results.json
 ├── notebooks/                     # pipeline 01–10 (lihat tabel di atas)
-├── scripts/                       # generator dokumen/slide
-│   ├── md_to_docx.py              # konversi .md → .docx (dukung --template)
-│   ├── build_final_presentation.py# pembangun presentation_id.pptx
-│   ├── build_proposal_pptx.py
-│   └── ... (skrip legacy)
 ├── deliverables/
 │   ├── figures/                   # 20 visualisasi PNG
-│   ├── proposal/                  # proposal .md/.docx/.pdf + slides
-│   ├── progress_report_1/         # Progress Report 1
-│   ├── progress_report_2/         # Progress Report 2
-│   ├── final_report/              # laporan akhir .md (ID + EN); .docx regenerasi
-│   ├── presentation/              # presentation_id.pptx + naskah narasi
-│   └── template/                  # template laporan akhir (Week 15)
+│   ├── final_report/              # laporan akhir
+│   └── presentation/              # presentation_id.pptx 
 └── docs/                          # plans, notes, task
 ```
 
